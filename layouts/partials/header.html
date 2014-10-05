@@ -41,5 +41,9 @@
   <script src="{{ .Site.BaseUrl }}/js/lightbox.min.js"></script>
   {{ end }}
 
+  {{ if .Site.Params.categoriescss }}
+    <link rel="stylesheet" type="text/css" href="{{ .Site.Params.categoriescss }}">
+  {{ end }}
+
   {{ partial "headend.html" . }}
 </head>

@@ -65,6 +65,15 @@ Each label will have the following class: ```class="post-category post-category-
 Note the name is going to be urlized. So for example: ```post-category-technology``` or ```post-category-golang``` and so on. This allows you to create your own CSS around the 
 categories you end up defining. You can then set the background color to be something specific and then all instances of that category label will match.
 
+You can easily include a categories CSS file, without modifying template partials, by using the site config params. Something like the following:
+
+```
+[params]
+	categoriescss = "/css/my-categories.css"
+```
+
+This will be included in the header.html file before headend.html partial, so you can still include additional code in that partial afterward.
+
 ### Comments
 
 Comments use Disqus, so the main config needs to define ```disqusShortname``` like normal. However, each page can disable comments from appearing with front matter. Simply set 
