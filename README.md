@@ -17,8 +17,8 @@ The sidebar can be configured with your main site config using params. For examp
 	sidebartagline = "Is super awesome"
 ```
 
-Alternatively you could add custom HTML using the ```sidebarheader.html``` partial and keep those values empty strings. The tagline will not be displayed at all if it doesn't eixst, 
-however the title will use ```.Title``` if ```sidebartitle``` is not set. So it will always be displayed. You will want to keep these lines short since there's limited space.
+Neither the title nor tagline will be shown if not set. You will want to keep these lines short since there's limited space. 
+Alternatively you could add custom HTML using the ```sidebarheader.html``` partial and keep those values empty strings.
 
 ### Menus
 

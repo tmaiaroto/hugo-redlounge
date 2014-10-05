@@ -2,11 +2,7 @@
   <div class="header">
     {{ partial "sidebarheader.html" . }}
 
-    {{ $sidebarTitle := .Title }}  
-    {{ if .Site.Params.sidebartitle }}
-      {{ $sidebarTitle := .Site.Params.sidebartitle }}
-    {{ end }}
-    <h1 class="brand-title">{{ $sidebarTitle }}</h1>
+    {{ if .Site.Params.sidebartitle }}<h1 class="brand-title">{{ .Site.Params.sidebartitle }}</h1>{{ end }}
     {{ if .Site.Params.sidebartagline }}<h2 class="brand-tagline">{{ .Site.Params.sidebartagline }}</h2>{{ end }}
 
     <nav class="nav">
