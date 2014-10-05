@@ -120,10 +120,10 @@ by explicitly setting variables. They are as follows:
 There are a few partials being used so that key areas can be easily overwritten.
 
  - ```doctype.html``` This contains the HTML document declaration and you may wish to change it from the default value of english for language, add namespaces, etc.
- - ```header.html``` This contains the <head> portion of the page
+ - ```header.html``` This contains the ```<head>``` portion of the page
  - ```meta.html``` This contains some basic meta tags, feel free to modify as needed (within header.html)
  - ```og.html``` OpenGraph only meta tags (within header.html)
- - ```headend.html``` This easily provides the ability to add custom style sheets and JavaScript right before </head> to override styles, etc. (within header.html)
+ - ```headend.html``` This easily provides the ability to add custom style sheets and JavaScript right before ```</head>``` to override styles, etc. (within header.html)
  - ```authorsocial.html``` If an author is set this template partial will be used to optionally show links to their social media profiles if also set (within single.html)
  - ```socialsharing.html``` Allows you to change what's displayed when ```socialsharing = true```
  - ```sidebar.html``` The sidebar which is already pretty customizable with site params and menus, but can also easily be changed if need be
@@ -131,4 +131,4 @@ There are a few partials being used so that key areas can be easily overwritten.
  - ```singletop.html``` Placed at the top of the page for single.html (but under the banner)
  - ```listtop.html``` Placed at the top of the page for list.html
  - ```footer.html``` The footer
- - ```bodyend.html``` Right before </body> (within list.html, single.html, and index.html - be sure to include it when/if overwriting with your own index.html)
+ - ```bodyend.html``` Right before ```</body>``` (within list.html, single.html, and index.html - be sure to include it when/if overwriting with your own index.html)
