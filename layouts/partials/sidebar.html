@@ -1,8 +1,13 @@
 <div class="sidebar pure-u-1 pure-u-md-1-4">
   <div class="header">
     {{ partial "sidebarheader.html" . }}
-    {{ if .Site.Params.sidebar }}<h1 class="brand-title">{{ range .Site.Params.sidebar }}{{ .title }}{{ end }}</h1>{{ end }}
-    {{ if .Site.Params.sidebar }}<h2 class="brand-tagline">{{ range .Site.Params.sidebar }}{{ .tagline }}{{ end }}</h2>{{ end }}
+
+    {{ $sidebarTitle := .Title }}  
+    {{ if .Site.Params.sidebartitle }}
+      {{ $sidebarTitle := .Site.Params.sidebartitle }}
+    {{ end }}
+    <h1 class="brand-title">{{ $sidebarTitle }}</h1>
+    {{ if .Site.Params.sidebartagline }}<h2 class="brand-tagline">{{ .Site.Params.sidebartagline }}</h2>{{ end }}
 
     <nav class="nav">
       <ul class="nav-list">
