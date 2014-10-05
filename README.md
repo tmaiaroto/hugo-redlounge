@@ -90,6 +90,7 @@ by explicitly setting variables. They are as follows:
 
  - ```nodate = true``` Hides the date on a page
  - ```noauthor = true``` Hides the author (which may simply be defined per page, but also could be set higher up in the config, so this overrides)
+ - ```noread = true``` Hides the read time displayed on list pages
  - ```nopaging = true``` Hides the next/prev links that navigate through pages
  - ```notoc = true``` Hides the table of contents from a page
  - ```totop = true``` Shows a "To Top" link, fixed in the top right of the page after scrolling beyond 1000px, that takes the user back to the top of the page (not shown by default)
