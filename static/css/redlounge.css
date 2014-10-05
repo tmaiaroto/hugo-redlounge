@@ -229,6 +229,7 @@ a.post-author {
 .read-more-link {
 	float: right;
 	clear: left;
+	margin-top: 0.25rem;
 }
 .read-more-link a {
 	text-decoration: none;
