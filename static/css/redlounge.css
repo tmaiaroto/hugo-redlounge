@@ -37,6 +37,9 @@ a.pure-button:hover, a.pure-button:focus {
 a.pure-button-primary:hover, a.pure-button-primary:focus {
 	color: #fff;
 }
+p a {
+	color:#7F1000;
+}
 h1 {
 	font-family: 'Libre Baskerville', serif;
 	font-weight: 700; 
@@ -257,6 +260,12 @@ a.post-author {
     color: #2d303b;
     font-size: 90%;
     margin: 0;
+}
+.post-meta a {
+	color: #616161;
+}
+.post-meta a:hover {
+	color: #E54028;
 }
 .post-categories {
 	clear: left;
