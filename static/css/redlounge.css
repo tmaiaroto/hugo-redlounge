@@ -53,6 +53,11 @@ h1 {
 .dark-red {
 	color: #7F1000;
 }
+.thin-line {
+	height: 1px;
+	border: 0px;
+	background: #eee;
+}
 
 /* Layout */
 .pure-img-responsive {
@@ -197,11 +202,26 @@ a.post-author {
 }
 .post {
     padding-bottom: 1.8rem;
+    line-height: 1.75rem;
+}
+.post p {
+	margin-bottom: 1.75rem;
+	margin-top: 0;
+}
+.post h3 {
+	margin-bottom: .25rem;
+	font-size: 1.4rem;
+	color: #7F1000;
+	font-weight: 500;
+}
+.post h3.post-subtitle {
+	font-weight: 200;
+	color: #999;
 }
 .post-title {
     font-size: 2rem;
     color: #222;
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.25rem;
 }
 .post-subtitle {
 	font-size: 1.5rem;
@@ -260,6 +280,9 @@ a.post-author {
     color: #2d303b;
     font-size: 90%;
     margin: 0;
+}
+p.post-meta {
+	margin-bottom: 0;
 }
 .post-meta a {
 	color: #616161;
