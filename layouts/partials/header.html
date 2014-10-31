@@ -1,6 +1,9 @@
 {{ partial "doctype.html" . }}
 <head>
-  <title> {{ .Title }} // {{ .Site.Title }} </title>
+  <title>
+    {{ .Title }}{{ if ne .Title .Site.Title }} // {{ .Site.Title }}{{ end }}
+  </title>
+
   {{ partial "meta.html" . }}
 
   {{ partial "og.html" . }}
