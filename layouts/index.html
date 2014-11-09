@@ -8,6 +8,7 @@
             {{ partial "listtop.html" . }}
 
           <div class="posts">
+            {{ $Site := .Site }}
             {{ range .Site.Recent }}
             <section  class="post">
                 <header class="post-header">
@@ -35,7 +36,7 @@
                 {{ if .Params.categories }}
                 <div class="post-categories">
                     {{ range .Params.categories }}
-                    <a class="post-category post-category-{{ . | urlize }}" href="/categories/{{ . | urlize }}">{{ . }}</a> 
+                    <a class="post-category post-category-{{ . | urlize }}" href="{{ $Site.BaseUrl }}/categories/{{ . | urlize }}">{{ . }}</a>
                     {{ end }}
                 </div>
                 {{ end }}
