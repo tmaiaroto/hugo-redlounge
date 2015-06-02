@@ -9,7 +9,7 @@
 
           <div class="posts">
             {{ $Site := .Site }}
-            {{ range .Site.Recent }}
+            {{ range .Site.Pages }}
             <section  class="post">
                 <header class="post-header">
                     {{ if .Params.thumbnail }}
