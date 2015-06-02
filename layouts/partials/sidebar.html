@@ -7,9 +7,9 @@
 
     <nav class="nav">
       <ul class="nav-list">
-        <li class="nav-item"><span class="nav-item-separator">//</span><a href="{{ .Site.BaseUrl }}">Home</a></li>
+        <li class="nav-item"><span class="nav-item-separator">//</span><a href="{{ .Site.BaseURL }}">Home</a></li>
         {{ range .Site.Menus.main }}
-          <li class="nav-item"><span class="nav-item-separator">//</span><a href="{{ .Url }}">{{ .Name }}</a></li>
+          <li class="nav-item"><span class="nav-item-separator">//</span><a href="{{ .URL }}">{{ .Name }}</a></li>
         {{ end }}
       </ul>
     </nav>
@@ -17,8 +17,8 @@
     {{ if .Site.Menus.social }}
     <div class="social-buttons">
       {{ range .Site.Menus.social }}
-        {{ if .Url }}
-        <a href="{{ .Url }}" target="_blank">{{ .Pre }}</a>
+        {{ if .URL }}
+        <a href="{{ .URL }}" target="_blank">{{ .Pre }}</a>
         {{ end }}
       {{ end }}
       

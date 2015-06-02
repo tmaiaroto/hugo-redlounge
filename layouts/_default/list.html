@@ -36,7 +36,7 @@
       					<div class="post-categories">
 				        {{ $Site := .Site }}
       					{{ range .Params.categories }}
-					        <a class="post-category post-category-{{ . | urlize }}" href="{{ $Site.BaseUrl}}/categories/{{ . | urlize }}">{{ . }}</a>
+					        <a class="post-category post-category-{{ . | urlize }}" href="{{ $Site.BaseURL}}/categories/{{ . | urlize }}">{{ . }}</a>
       					{{ end }}
       					</div>
       				{{ end }}
