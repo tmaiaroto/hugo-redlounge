@@ -5,6 +5,8 @@ licenselink = "https://github.com/tmaiaroto/hugo-redlounge/blob/master/LICENSE.m
 source_repo = "http://github.com/tmaiaroto/hugo-redlounge"
 tags = ["redlounge", "red", "raleway", "libre baskerville", "blog", "gallery"]
 features = ["blog", "gallery"]
+min_version = 0.14
+
 [author]
     name = "Tom Maiaroto"
     homepage = "http://www.shift8creative.com"
