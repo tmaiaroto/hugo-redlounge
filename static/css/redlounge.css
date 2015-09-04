@@ -464,9 +464,17 @@ hr.thin {
     }
 
     .header {
-        margin: 60% 2rem 0;
+        margin: 30% 2rem 0;
         text-align: right;
     }
+
+    .header .sidebarphoto{
+	    width:160px;
+	    height:160px;
+	    order-radius: 50%;
+	    -moz-border-radius: 50%;
+	    -webkit-border-radius: 50%;
+	}
 
     .sidebar {
         position: fixed;
