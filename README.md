@@ -15,7 +15,7 @@ The sidebar can be configured with your main site config using params. For examp
 [params]
 	sidebartitle = "My Site"
 	sidebartagline = "Is super awesome"
-    sidebarphoto = "img/photo.png"
+    sidebarphoto = "/img/photo.png"
 ```
 
 This three properites will not be shown if not set. You will want to keep these lines short since there's limited space. 
