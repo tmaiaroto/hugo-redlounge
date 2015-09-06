@@ -471,7 +471,7 @@ hr.thin {
     .header .sidebarphoto{
 	    width:160px;
 	    height:160px;
-	    order-radius: 50%;
+	    border-radius: 50%;
 	    -moz-border-radius: 50%;
 	    -webkit-border-radius: 50%;
 	}
