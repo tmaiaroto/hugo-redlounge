@@ -60,7 +60,9 @@
 		    {{ end }}
 
 			{{ if .Params.bannerinline }}
-				<img src="{{ .Params.bannerinline }}" class="pure-img content-banner-image-inline" />
+				<img src="{{ .Params.bannerinline }}" class="pure-img content-banner-image-inline"
+                                     style="{{ if .Params.bannerfill }}width: 100%;{{ end }}
+                                            {{ if .Params.bannerheight }}height: {{ .Params.bannerheight }}px;{{ end }}" />
 			{{ end }}
 
             {{ .Content }}
