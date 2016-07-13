@@ -45,5 +45,7 @@
     <link rel="stylesheet" type="text/css" href="{{ .Site.Params.categoriescss }}">
   {{ end }}
 
+  {{ template "_internal/google_analytics.html" . }}
+
   {{ partial "headend.html" . }}
 </head>
