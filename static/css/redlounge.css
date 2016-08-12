@@ -451,6 +451,14 @@ hr.thin {
 	h2.brand-tagline {
 		font-size: 1.2rem;
 	}
+
+	.header>.sidebarphoto{
+	    width:160px;
+	    height:160px;
+	    border-radius: 50%;
+	    -moz-border-radius: 50%;
+	    -webkit-border-radius: 50%;
+	}
 }
 
 @media (min-width: 48rem) {
@@ -468,7 +476,7 @@ hr.thin {
         text-align: right;
     }
 
-    .header .sidebarphoto{
+    .header>.sidebarphoto{
 	    width:160px;
 	    height:160px;
 	    border-radius: 50%;
