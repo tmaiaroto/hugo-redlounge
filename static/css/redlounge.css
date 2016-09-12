@@ -401,6 +401,9 @@ a.post-category:hover {
 nav#TableOfContents li {
 	padding-bottom: 0.25rem;
 }
+nav#TableOfContents ul:first-child {
+    padding-left: 0px;
+}
 .toc-label {
 	font-size: 0.8rem;
 	color: #aeaeae;
