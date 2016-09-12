@@ -218,6 +218,10 @@ a.post-author {
 	font-weight: 200;
 	color: #999;
 }
+.post table {
+    margin-bottom: 1.75rem;
+    margin-top: 0;
+}
 .post-title {
     font-size: 2rem;
     color: #222;
@@ -396,6 +400,9 @@ a.post-category:hover {
 }
 nav#TableOfContents li {
 	padding-bottom: 0.25rem;
+}
+nav#TableOfContents ul:first-child {
+    padding-left: 0px;
 }
 .toc-label {
 	font-size: 0.8rem;
