@@ -15,11 +15,20 @@ The sidebar can be configured with your main site config using params. For examp
 [params]
 	sidebartitle = "My Site"
 	sidebartagline = "Is super awesome"
-    sidebarphoto = "/img/photo.png"
+	sidebarphoto = "/img/photo.png"
 ```
 
 This three properites will not be shown if not set. You will want to keep these lines short since there's limited space. 
 Alternatively you could add custom HTML using the ```sidebarheader.html``` partial and keep those values empty strings.
+
+### Google Analytics
+
+Google Analytics can be configured with your main site config by entering the Google Analytics tracking id under params. For example, in ```config.toml```
+
+```
+[params]
+	gaid = "UA-XXXXXXXX-X"
+```
 
 ### Menus
 
