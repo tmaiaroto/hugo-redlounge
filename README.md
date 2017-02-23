@@ -1,6 +1,8 @@
 Red Lounge
 ===========
 
+NOTICE: This theme is no longer maintained (or very slowly maintanied). Unless a pull request comes in that makes sense to merge, don't expect updates. Hugo has since updated a bit since this theme was created. So there may be some incompatibilities or missing features (certainly missing features). Please feel free to submit pull requests. Also if anyone is interested in maintaning the theme, please let me know. Thanks!
+
 This is an open-source Hugo theme designed by [@shift8creative](http://www.twitter.com/shift8creative) to be responsive and clean. It uses Pure.css and contains a few web fonts from Google as well as Font Awesome icons. 
 So despite it being simple, it has a lot of flexibility in terms of typography and design elements. It's also quite configurable as it has a few variables to change the
 appearance and features of the pages. By default, excess features (and JavaScript) is not included.
