@@ -8,7 +8,7 @@
       {{ partial "listtop.html" . }}
 
       <div class="posts">
-        {{ range .Data.Pages }}
+        {{ range .Site.RegularPages }}
           <section  class="post">
             <header class="post-header">
             {{ if .Params.thumbnail }}

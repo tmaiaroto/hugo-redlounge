@@ -31,7 +31,7 @@
   <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.png">
 
   <!-- RSS -->
-  <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+  <link href="{{ with .OutputFormats.Get "RSS" }} {{ .RelPermalink }} {{ end }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 
   {{ partial "syntaxhighlight.html" . }}
 
